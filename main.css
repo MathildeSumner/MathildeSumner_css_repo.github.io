@@ -40,3 +40,9 @@ li a:active{
     }
     
 }
+
+/*tilly stuff*/
+
+.about_pic{
+    flex-direction: column;
+}
