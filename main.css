@@ -2,7 +2,7 @@ body{
     margin:0;
 }
 
-ul{
+nav ul{
     list-style: none;
     display: flex;
     background-color: black;
@@ -38,5 +38,32 @@ li a:active{
     li a:hover{
         background-color: darkslategrey;
     }
-    
+}
+
+/* FAQ PAGE */
+h1{
+    color:#29000A; 
+}
+
+.Ticketing{
+background-color: #2C484E;
+color: white;
+text-decoration:none; 
+list-style:none;
+}
+
+.BeforeYouGo{
+    background-color: #2C484E;
+    color: white;
+    text-decoration:none; 
+    list-style:none;
+
+}
+
+.AtTheEvent{
+    background-color: #2C484E;
+    color: white;
+    text-decoration:none; 
+    list-style:none;
+
 }
