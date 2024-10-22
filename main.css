@@ -54,6 +54,17 @@ li a:active{
     object-fit: cover;      
 }
 
+.what_we_offer, .contact_us, .about {
+    border-bottom: solid;
+}
+
+#About_title{
+    border-bottom: solid;
+}
+#what_we_offer_title, #contact_us_title{
+    padding-left: 20px;
+}
+
 /* about page */
 
 /* FAQ PAGE */
