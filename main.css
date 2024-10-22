@@ -41,7 +41,7 @@ li a:active{
     
 }
 
-
+/* about page */
 #about_pic {
     width: 100%;            
 }
@@ -53,6 +53,8 @@ li a:active{
     margin: 0;             
     object-fit: cover;      
 }
+
+/* about page */
 
 /* FAQ PAGE */
 
