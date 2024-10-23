@@ -42,23 +42,40 @@ li a:active {
 
 /* p-schedule */
 
-.grid-container {
+.schedule_container {
   display: grid;
-  justify-content: center;
   align-items: center;
-  text-align: center; /* Ensures the text and images are centered */
-  grid-gap: 20px; /* Adds space between grid items (text and images) */
+  grid-template-columns: 1fr 1fr;
+  column-gap: px;
 }
 
-.grid-container h1,
-.grid-container p {
-  max-width: 50%;
-  padding-top: 30px; /* Adds space below the text without affecting horizontal centering */
-  margin: 0 auto; /* Keeps the text centered */
+.schedule_img {
+  margin: 70px;
+}
+
+.schedule_text {
+  font-size: 20px;
+  margin-right: 50px;
   border-style: groove;
+  padding: 50px;
 }
 
-.grid-container img {
-  max-width: 100%;
-  padding-top: 30px;
+.header_image {
+  width: 100vw;
+}
+
+.header_text h1 {
+  font-size: 70px;
+}
+
+.header_text p {
+  font-size: 25px;
+}
+
+.header_text {
+  justify-self: center;
+}
+
+.schedule_header {
+  align-items: end;
 }
