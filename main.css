@@ -2,6 +2,18 @@ body {
   margin: 0;
   background-color: #cdd5c6;
 
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 ul {
@@ -41,40 +53,6 @@ li a:active {
   }
 }
 
-/* p-schedule */
-
-.schedule {
-  background-color: #cdd5c6;
-  /* margin-left: 105; */
-  /* padding-bottom: 300px; */
-}
-
-.header_image {
-  width: 100vw;
-}
-
-.header_text {
-  width: 50%;
-  color: 2900a;
-  text-align: center;
-  margin-left: 22%;
-  padding: 50px;
-}
-
-.header_text h1 {
-  font-size: 50px;
-}
-
-.header_text p {
-  font-size: 28px;
-}
-
-.schedule_container {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2%;
-}
 #everything{
     background-color: pink;
 }
