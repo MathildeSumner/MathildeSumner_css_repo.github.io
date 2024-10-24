@@ -62,11 +62,16 @@ p{
 }  
 #About_title{
     border-bottom: solid;
+    display: flex;
+    justify-content: center;
+
 }
 #what_we_offer_title, #contact_us_title{
     padding-left: 20px;
 }
 .contact_us{
+    padding: 40px;
+    background-color: #c9c4b3;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
