@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #F0EAD6;
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: #29000A;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    /*font-family: "Londrina Sketch", sans-serif;*/
+  }
+  
+  li a:hover {
+    
+    background-color: #75001d;
+  }
+  
+  li a:active {
+    background-color: white;
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px) {
+    ul {
+      flex-direction: column;
+    }
+    li {
+      width: 100vw;
+      padding: 10px 10px;
+    }
+    li a:hover {
+      background-color: darkslategrey;
+    }
+
+/* nav bar stuff*/
+p{
+    padding: 10px;
+}
+
+}#about_pic {
+    width: 100%;     
+}
+#about_pic img {
+    width: 100vw;           
+    height: auto;           
+    display: block;
+    margin: 0;             
+    object-fit: cover;      
+}
+.what_we_offer, .contact_us, .about {
+    border-bottom: solid;
+}  
+#About_title{
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+
+}
+#what_we_offer_title, #contact_us_title{
+    padding-left: 20px;
+}
+.contact_us{
+    padding: 40px;
+    background-color: #c9c4b3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}

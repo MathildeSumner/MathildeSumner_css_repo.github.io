@@ -19,7 +19,6 @@ p{
 ul {
   list-style: none;
   display: flex;
-  background-color: black;
   margin: 0;
   padding: 10px 0px;
   justify-content: center;
@@ -58,10 +57,8 @@ li a:active {
     background-color: pink;
 }
 
-/* about page */
 
 /* FAQ PAGE */
-
 #HeaderImage{
 display: flex;
 width: 100%;
