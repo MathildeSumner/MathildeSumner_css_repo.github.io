@@ -76,12 +76,18 @@ li a:active {
   grid-template-columns: 1fr 1fr;
   column-gap: 2%;
 }
+#everything{
+    background-color: pink;
+}
+/* about page */
 
-.schedule_img {
-  margin: 5%;
-  margin-left: 5%;
-  align-items: center;
-  width: 69%;
+/* FAQ PAGE */
+
+#HeaderImage{
+display: flex;
+width: 100%;
+height: auto;
+max-width: 100%;
 }
 
 .schedule_text {
