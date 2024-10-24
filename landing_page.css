@@ -27,6 +27,7 @@ li a:active{
     color:black;
 }
 
+
 @media screen and (max-width: 800px){
     ul{
         flex-direction: column;
@@ -38,20 +39,4 @@ li a:active{
     li a:hover{
         background-color: darkslategrey;
     }
-    
 }
-
-
-#about_pic {
-    width: 100%;            
-}
-
-#about_pic img {
-    width: 100vw;           
-    height: auto;           
-    display: block;
-    margin: 0;             
-    object-fit: cover;      
-}
-
-
