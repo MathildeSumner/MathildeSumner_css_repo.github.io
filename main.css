@@ -64,7 +64,9 @@ li a:active{
 #what_we_offer_title, #contact_us_title{
     padding-left: 20px;
 }
-
+#everything{
+    background-color: pink;
+}
 /* about page */
 
 /* FAQ PAGE */
