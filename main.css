@@ -1,115 +1,107 @@
-body{
-    margin:0;
+body {
+  margin: 0;
+  background-color: #cdd5c6;
+
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
-    background-color: black;
-    margin:0;
-    padding: 10px 0px;
-    justify-content: center;
+ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  margin: 0;
+  padding: 10px 0px;
+  justify-content: center;
 }
 
-li a{
-    text-decoration: none; 
-    color: white;
-    padding: 10px 30px;
-    /*font-family: "Londrina Sketch", sans-serif;*/
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  /*font-family: "Londrina Sketch", sans-serif;*/
 }
 
-li a:hover{
+li a:hover {
+  background-color: darkslategrey;
+}
+
+li a:active {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+  li {
+    width: 100vw;
+    padding: 10px 10px;
+  }
+  li a:hover {
     background-color: darkslategrey;
+  }
 }
 
-li a:active{
-    background-color: white;
-    color:black;
+/* p-schedule */
+
+.schedule {
+  background-color: #cdd5c6;
+  /* margin-left: 105; */
+  /* padding-bottom: 300px; */
 }
 
-@media screen and (max-width: 800px){
-    ul{
-        flex-direction: column;
-    }
-    li{
-        width: 100vw;
-        padding: 10px 10px;
-    }
-    li a:hover{
-        background-color: darkslategrey;
-    }
-    
+.header_image {
+  width: 100vw;
 }
 
-/* about page */
-#about_pic {
-    width: 100%;            
+.header_text {
+  width: 50%;
+  color: 2900a;
+  text-align: center;
+  margin-left: 22%;
+  padding: 50px;
 }
 
-#about_pic img {
-    width: 100vw;           
-    height: auto;           
-    display: block;
-    margin: 0;             
-    object-fit: cover;      
+.header_text h1 {
+  font-size: 50px;
 }
 
-.what_we_offer, .contact_us, .about {
-    border-bottom: solid;
+.header_text p {
+  font-size: 28px;
 }
 
-#About_title{
-    border-bottom: solid;
-}
-#what_we_offer_title, #contact_us_title{
-    padding-left: 20px;
-}
-
-/* about page */
-
-/* FAQ PAGE */
-
-#HeaderImage{
-display: flex;
-width: 100%;
-height: auto;
-max-width: 100%;
+.schedule_container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
 }
 
-h1{
-    color:#29000A; 
-    padding: 20px;
-    text-align: center;
+.schedule_img {
+  margin: 5%;
+  margin-left: 5%;
+  align-items: center;
+  width: 69%;
 }
 
-p{
-    padding: 20px;
+.schedule_text {
+  font-size: 22px;
+  margin: 5%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5%;
+  border-color: black;
+  color: #29000a;
+  background-color: #f0ead6;
 }
 
-.Ticketing{
-background-color: #2C484E;
-color: white;
-text-decoration:none; 
-list-style:none;
-padding: 20px;
-line-height: 1.5;
+.schedule_bottom
+{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
 }
-
-.BeforeYouGo{
-    background-color: #2C484E;
-    color: white;
-    text-decoration:none; 
-    list-style:none;
-    padding: 20px;
-    line-height: 1.5;
-
-}
-
-.AtTheEvent{
-    background-color: #2C484E;
-    color: white;
-    text-decoration:none; 
-    list-style:none;
-    padding: 20px;
-    line-height: 1.5;
+.bottom_img
+{
+  margin: 10%;
 }
