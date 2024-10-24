@@ -16,7 +16,7 @@ li a {
   text-decoration: none;
   color: white;
   padding: 10px 30px;
-  /*font-family: "Londrina Sketch", sans-serif;*/
+  font-family: "Londrina Sketch", sans-serif;
 }
 
 li a:hover {
@@ -77,43 +77,6 @@ li a:active {
 }
 #everything{
     background-color: pink;
-}
-
-
-/* FAQ PAGE */
-#HeaderImage{
-display: flex;
-width: 100%;
-height: auto;
-max-width: 100%;
-}
-
-
-.BeforeYouGo{
-  background-color: #2C484E;
-  color: white;
-  text-decoration:none; 
-  list-style:none;
-  padding: 20px;
-  line-height: 1.5;
-}
-
-.Ticketing{
-  background-color: #2C484E;
-  color: white;
-  text-decoration:none; 
-  list-style:none;
-  padding: 20px;
-  line-height: 1.5;
-}
-
-.AtTheEvent{
-  background-color: #2C484E;
-  color: white;
-  text-decoration:none; 
-  list-style:none;
-  padding: 20px;
-  line-height: 1.5;
 }
 
 .schedule_text {
