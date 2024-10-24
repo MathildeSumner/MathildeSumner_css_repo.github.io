@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: #cdd5c6;
+
 }
 
 ul {
@@ -43,58 +45,63 @@ li a:active {
 /* p-schedule */
 
 .schedule {
-  background-color: #CDD5C6;
-  padding-bottom: 300px;
+  background-color: #cdd5c6;
+  /* margin-left: 105; */
+  /* padding-bottom: 300px; */
 }
 
 .header_image {
   width: 100vw;
-  /* border-color: white; */
-  border-style: groove;
 }
 
 .header_text {
-  justify-self: center;
-  width: 60%;
-  padding-left: 100px;
+  width: 50%;
+  color: 2900a;
   text-align: center;
-  color: white;
-  background-color: #2c484e;
+  margin-left: 22%;
   padding: 50px;
-  margin-left: 18%;
-  margin-top: 50px;
-  /* border-style: groove; */
-  border-radius: 20px;
 }
 
 .header_text h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .header_text p {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .schedule_container {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
+  column-gap: 2%;
 }
 
 .schedule_img {
-  margin: 100px;
-  margin-left: 35%;
+  margin: 5%;
+  margin-left: 5%;
+  align-items: center;
   width: 69%;
 }
 
 .schedule_text {
-  font-size: 20px;
-  margin-right: 35%;
-  margin-left: 10%;
+  font-size: 22px;
+  margin: 5%;
+  text-align: center;
   border-radius: 20px;
-  padding: 50px;
+  padding: 5%;
   border-color: black;
-  color: white;
-  background-color: hsl(191, 28%, 23%, .7);
+  color: #29000a;
+  background-color: #f0ead6;
+}
+
+.schedule_bottom
+{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.bottom_img
+{
+  margin: 10%;
 }
