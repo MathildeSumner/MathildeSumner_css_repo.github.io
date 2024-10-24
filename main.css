@@ -7,7 +7,6 @@ body {
 ul {
   list-style: none;
   display: flex;
-  background-color: black;
   margin: 0;
   padding: 10px 0px;
   justify-content: center;
@@ -81,13 +80,41 @@ li a:active {
 }
 /* about page */
 
-/* FAQ PAGE */
 
+/* FAQ PAGE */
 #HeaderImage{
 display: flex;
 width: 100%;
 height: auto;
 max-width: 100%;
+}
+
+
+.BeforeYouGo{
+  background-color: #2C484E;
+  color: white;
+  text-decoration:none; 
+  list-style:none;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.Ticketing{
+  background-color: #2C484E;
+  color: white;
+  text-decoration:none; 
+  list-style:none;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.AtTheEvent{
+  background-color: #2C484E;
+  color: white;
+  text-decoration:none; 
+  list-style:none;
+  padding: 20px;
+  line-height: 1.5;
 }
 
 .schedule_text {
