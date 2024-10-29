@@ -1,0 +1,97 @@
+/* Nav Bar */
+body {
+    margin: 0;
+    background-color:#F0ECD6 ;
+  
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px 0px;
+    justify-content: center;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+  }
+  
+  li a:hover {
+    background-color: darkslategrey;
+  }
+  
+  li a:active {
+    background-color: white;
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px) {
+    ul {
+      flex-direction: column;
+    }
+    li {
+      width: 100vw;
+      padding: 10px 10px;
+    }
+    li a:hover {
+      background-color: darkslategrey;
+    }
+  }
+  
+
+
+/* FAQ PAGE */
+#HeaderImage{
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+
+    .FAQ-flexbox{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        padding: 20px;
+    }
+
+    p{
+        padding: 20px;
+    }
+    
+    .Ticketing{
+      text-decoration:none; 
+      list-style: none;
+      line-height: 1.5;
+      flex-direction: column;
+      border: 2pt solid black;;
+        padding: 20px; 
+    }
+    
+    .BeforeYouGo{
+      
+      color: black;
+      text-decoration:none; 
+      list-style:none;
+      padding: 20px;
+      line-height: 1.5;
+      border: 2pt solid black;
+      padding: 20px; 
+    }
+    
+    .AtTheEvent{
+
+      color: black;
+      text-decoration:none; 
+      list-style:none;
+      padding: 20px;
+      line-height: 1.5;
+      border: 2pt solid black;
+      padding: 20px; 
+    }
