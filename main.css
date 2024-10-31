@@ -45,8 +45,6 @@ nav li a:active {
 body {
   margin: 0;
   background-color: #F2E9D8;
-  /* font-family: "Londrina Sketch", sans-serif; */
-  
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -63,4 +61,12 @@ p{
 
 h1 {
   font-size: 50px;
+}
+
+.contact_us{
+  padding: 40px;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
