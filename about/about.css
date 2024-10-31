@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #F0EAD6;
+    background-color: white;
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -20,7 +20,7 @@ p{
     margin: 0;
     padding: 10px 0px;
     justify-content: center;
-    background-color: #29000A;
+    background-color: #703640;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -37,7 +37,7 @@ p{
   
   li a:hover {
     
-    background-color: #75001d;
+    background-color: #562931;
   }
   
   li a:active {
@@ -84,18 +84,19 @@ p{
 }
 .contact_us{
     padding: 40px;
-    background-color: #c9c4b3;
+    background-color: #d9d9d9;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
-#flute_pic img {
+.flute_pic img {
     width: 100vw;           
     height: auto;           
     display: block;
     margin: 0;             
     object-fit: cover;      
 }
-h2{
-    
+.flute_pic, .what_we_offer{
+  display: flex;
+  flex-direction: column;
 }
