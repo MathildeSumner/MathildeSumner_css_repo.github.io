@@ -83,7 +83,7 @@ nav li a:active {
     p{
         padding: 20px;
         font-family: "Dosis", sans-serif;
-        text-align: center;
+        text-align:left;
         font-size: 22px;
     }
 
