@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: white;
+  background-color: #F2E9D8;
   /* font-family: "Londrina Sketch", sans-serif; */
 
   font-family: "Bitter", serif;
@@ -43,7 +43,7 @@ li a:active {
 
 @media screen and (max-width: 800px) {
   ul {
-    flex-direction: column;
+    flex-direction: row;
   }
   li {
     width: 100vw;
@@ -55,7 +55,7 @@ li a:active {
 }
 
 .schedule {
-  background-color: white;
+  background-color: #F2E9D8;
 }
 
 .header_image {
@@ -93,7 +93,7 @@ li a:active {
   margin: 7%;
   border-radius: 20px;
   padding: 7%;
-  color: white;
+  color: #F2E9D8;
   background-color: #2c484e;
   align-items: center;
   justify-content: center;
@@ -105,7 +105,7 @@ li a:active {
 .bottom_container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 5%;
   margin: 10%;
   border-radius: 20px;
@@ -113,11 +113,12 @@ li a:active {
 }
 
 .bottom_img {
+  border-color: 5px #F2E9D8;
 }
 
 .bottom_text {
-  margin-right: 20%;
-  color: white;
+  margin: 20px;
+  color: #F2E9D8;
 }
 
 .bottom_text h1{
