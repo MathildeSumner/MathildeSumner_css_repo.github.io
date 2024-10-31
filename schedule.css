@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f0ecd6;
+  background-color: white;
   /* font-family: "Londrina Sketch", sans-serif; */
 
   font-family: "Bitter", serif;
@@ -19,7 +19,7 @@ p {
 ul {
   list-style: none;
   display: flex;
-  background-color: black;
+  background-color: #703640;
   margin: 0;
   padding: 10px 0px;
   justify-content: center;
@@ -33,7 +33,7 @@ li a {
 }
 
 li a:hover {
-  background-color: darkslategrey;
+  background-color: #633038;
 }
 
 li a:active {
@@ -55,7 +55,7 @@ li a:active {
 }
 
 .schedule {
-  background-color: #f0ecd6;
+  background-color: white;
 }
 
 .header_image {
@@ -64,7 +64,7 @@ li a:active {
 
 .header_text {
   width: 50%;
-  color: 2900a;
+  color: #29000a;
   text-align: center;
   justify-content: center;
   margin-left: 22%;
@@ -93,7 +93,7 @@ li a:active {
   margin: 7%;
   border-radius: 20px;
   padding: 7%;
-  color: #f0ecd6;
+  color: white;
   background-color: #2c484e;
   align-items: center;
   justify-content: center;
@@ -109,7 +109,7 @@ li a:active {
   padding: 5%;
   margin: 10%;
   border-radius: 20px;
-  background-color: #CDD5C6;
+  background-color: #29000a;
 }
 
 .bottom_img {
@@ -117,6 +117,7 @@ li a:active {
 
 .bottom_text {
   margin-right: 20%;
+  color: white;
 }
 
 .bottom_text h1{
