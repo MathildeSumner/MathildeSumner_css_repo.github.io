@@ -78,3 +78,16 @@ li a:active {
 {
   margin: 10%;
 }
+<<<<<<< HEAD
+=======
+
+#about_pic img {
+    width: 100vw;           
+    height: auto;           
+    display: block;
+    margin: 0;             
+    object-fit: cover;      
+}
+
+
+>>>>>>> Josie
