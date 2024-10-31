@@ -33,7 +33,14 @@
 }
 */
 .about{
-  padding: 20px;
+  font-size: 22px;
+  margin: 7%;
+  border-radius: 20px;
+  padding: 7%;
+  color: white;
+  background-color: #2c484e;
+  align-items: center;
+  justify-content: center;
   
 }
 .what_we_offer, .flute_pic{
