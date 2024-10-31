@@ -1,7 +1,7 @@
 /* Nav Bar */
 body {
     margin: 0;
-    background-color:#F0ECD6 ;
+    background-color: white ;
   
   }
   
@@ -15,12 +15,13 @@ body {
   
   li a {
     text-decoration: none;
-    color: white;
+    color: #703640;
     padding: 10px 30px;
   }
   
   li a:hover {
     background-color: darkslategrey;
+    color: white;
   }
   
   li a:active {
@@ -70,7 +71,7 @@ body {
       list-style: none;
       line-height: 1.5;
       flex-direction: column;
-      border: 2pt solid black;;
+      border: 3pt solid black;;
         padding: 20px; 
     }
     
@@ -81,7 +82,7 @@ body {
       list-style:none;
       padding: 20px;
       line-height: 1.5;
-      border: 2pt solid black;
+      border: 3pt solid black;
       padding: 20px; 
     }
     
@@ -92,6 +93,6 @@ body {
       list-style:none;
       padding: 20px;
       line-height: 1.5;
-      border: 2pt solid black;
+      border: 3pt solid black;
       padding: 20px; 
     }
