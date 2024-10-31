@@ -60,3 +60,74 @@ p{
   font-style: normal;
 }
 
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 10%;
+  background-color: #f6f8f3;
+}
+
+.landing h2 {
+  font-size: 3rem;
+  color: #3e4c3f;
+  font-family: "Londrina Sketch", sans-serif;
+  text-align: center;
+}
+
+.landing p {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.25rem;
+  max-width: 600px;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  background-color: #536d60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3e4c3f;
+  transform: scale(1.05);
+}
+
+/* Content Grid */
+.schedule_bottom {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 5%;
+}
+
+.bottom_img {
+  margin: 10%;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.landing, .schedule_bottom {
+  animation: fadeIn 1s ease-out;
+}
+
+.image-section {
+  max-width: max-content;
+  max-height: flex;
+
+}
