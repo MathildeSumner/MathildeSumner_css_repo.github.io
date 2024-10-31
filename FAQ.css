@@ -1,47 +1,54 @@
 /* Nav Bar */
 body {
-    margin: 0;
-    background-color:#F0ECD6 ;
-  
-  }
-  
+  margin: 0;
+  background-color: white;
+}
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 20px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px 0px;
+  justify-content: center;
+  background-color: #29000A;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  /*font-family: "Londrina Sketch", sans-serif;*/
+}
+
+nav li a:hover{
+  background-color: #75001d;
+}
+
+nav li a:active{
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
   ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 10px 0px;
-    justify-content: center;
+    flex-direction: column;
   }
-  
-  li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 30px;
+  li {
+    width: 100vw;
+    padding: 10px 10px;
   }
-  
   li a:hover {
     background-color: darkslategrey;
   }
-  
-  li a:active {
-    background-color: white;
-    color: black;
   }
   
-  @media screen and (max-width: 800px) {
-    ul {
-      flex-direction: column;
-    }
-    li {
-      width: 100vw;
-      padding: 10px 10px;
-    }
-    li a:hover {
-      background-color: darkslategrey;
-    }
-  }
-  
-
 
 /* FAQ PAGE */
 #HeaderImage{
@@ -59,10 +66,12 @@ body {
 
     h1{
         padding: 20px;
+        font-family: "Bitter", serif;
     }
 
     p{
         padding: 20px;
+        font-family: "Dosis", sans-serif;
     }
     
     .Ticketing{
@@ -70,8 +79,9 @@ body {
       list-style: none;
       line-height: 1.5;
       flex-direction: column;
-      border: 2pt solid black;;
-        padding: 20px; 
+      border: 3pt solid black;;
+      padding: 20px; 
+      border-radius: 10px;
     }
     
     .BeforeYouGo{
@@ -81,8 +91,10 @@ body {
       list-style:none;
       padding: 20px;
       line-height: 1.5;
-      border: 2pt solid black;
+      border: 3pt solid black;
       padding: 20px; 
+      border-radius: 20px;
+    
     }
     
     .AtTheEvent{
@@ -92,6 +104,7 @@ body {
       list-style:none;
       padding: 20px;
       line-height: 1.5;
-      border: 2pt solid black;
+      border: 3pt solid black;
       padding: 20px; 
+      border-radius: 20px;
     }
