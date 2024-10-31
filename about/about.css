@@ -48,7 +48,6 @@ p{
       background-color: darkslategrey;
     }
 
-
 #about_pic {
     width: 100%;     
 }
@@ -72,13 +71,8 @@ p{
 #what_we_offer_title, #contact_us_title{
     padding-left: 20px;
 }
-.contact_us{
-    padding: 40px;
-    background-color: #d9d9d9;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
+
+/*
 .flute_pic img {
     width: 100vw;           
     height: auto;           
@@ -88,3 +82,20 @@ p{
 }
 
   }
+*/
+.about{
+  font-size: 22px;
+  margin: 7%;
+  border-radius: 20px;
+  padding: 7%;
+  color: white;
+  background-color: #2c484e;
+  align-items: center;
+  justify-content: center;
+  
+}
+.what_we_offer, .flute_pic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap
+}
