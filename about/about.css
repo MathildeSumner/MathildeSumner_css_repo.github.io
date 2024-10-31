@@ -23,16 +23,7 @@
     padding-left: 20px;
 }
 
-/*
-.flute_pic img {
-    width: 100vw;           
-    height: auto;           
-    display: block;
-    margin: 0;             
-    object-fit: cover;      
-}
-*/
-.about{
+.about, .what_we_offer{
   font-size: 22px;
   margin: 7%;
   border-radius: 20px;
@@ -43,8 +34,4 @@
   justify-content: center;
   
 }
-.what_we_offer, .flute_pic{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap
-}
+
