@@ -22,13 +22,8 @@
 #what_we_offer_title, #contact_us_title{
     padding-left: 20px;
 }
-.contact_us{
-    padding: 40px;
-    background-color: #d9d9d9;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
+
+/*
 .flute_pic img {
     width: 100vw;           
     height: auto;           
@@ -36,7 +31,13 @@
     margin: 0;             
     object-fit: cover;      
 }
+*/
 .about{
   padding: 20px;
-  border
+  
+}
+.what_we_offer, .flute_pic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap
 }
