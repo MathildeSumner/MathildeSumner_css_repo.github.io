@@ -1,41 +1,29 @@
-body {
+/*nav bar stuff*/
+nav ul {
+  list-style: none;
+  display: flex;
   margin: 0;
-  background-color: #cdd5c6;
-
-  font-family: "Bitter", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-
-}
-
-p{
+  padding: 10px 0px;
+  justify-content: center;
+  background-color: #703640;
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 10px 0px;
-  justify-content: center;
-}
-
-li a {
+nav a {
   text-decoration: none;
   color: white;
   padding: 10px 30px;
-  font-family: "Londrina Sketch", sans-serif;
 }
 
-li a:hover {
-  background-color: darkslategrey;
+nav li a:hover {
+  
+  background-color: #562931;
 }
 
-li a:active {
+nav li a:active {
   background-color: white;
   color: black;
 }
@@ -50,38 +38,28 @@ li a:active {
   }
   li a:hover {
     background-color: darkslategrey;
-  }
-}
+  }}
 
-#everything{
-    background-color: pink;
-}
+/*nav bar stuff*/
 
-.schedule_text {
-  font-size: 22px;
-  margin: 5%;
-  text-align: center;
-  border-radius: 20px;
-  padding: 5%;
-  border-color: black;
-  color: #29000a;
-  background-color: #f0ead6;
-}
-
-.schedule_bottom
-{
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-}
-.bottom_img
-{
-  margin: 10%;
-}
-h1 {
-  font-size:50px;
+body {
+  margin: 0;
+  background-color: #cdd5c6;
+  /* font-family: "Londrina Sketch", sans-serif; */
   
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
+
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .landing {
   display: flex;
   flex-direction: column;
@@ -93,7 +71,7 @@ h1 {
 .landing h2 {
   font-size: 3rem;
   color: #3e4c3f;
-  font-family: "Londrina Sketch", sans-serif;
+  font-family: "Dosis", sans-serif;
   text-align: center;
 }
 
@@ -152,4 +130,8 @@ h1 {
   max-width: max-content;
   max-height: flex;
 
+}
+h1 {
+  font-size: 75px;
+  font-style: "Dosis", sans-serif;
 }
