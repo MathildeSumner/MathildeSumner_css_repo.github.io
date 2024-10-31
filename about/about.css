@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background-color: #F0EAD6;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 p{
     font-family: "Dosis", sans-serif;
@@ -17,13 +21,18 @@ p{
     padding: 10px 0px;
     justify-content: center;
     background-color: #29000A;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
   }
   
   li a {
     text-decoration: none;
     color: white;
     padding: 10px 30px;
-    /*font-family: "Londrina Sketch", sans-serif;*/
+    
+    
   }
   
   li a:hover {
@@ -49,12 +58,7 @@ p{
     }
 
 /* nav bar stuff*/
-h1{
-    font-family: "Bitter", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+
 }#about_pic {
     width: 100%;     
 }
@@ -84,4 +88,14 @@ h1{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+}
+#flute_pic img {
+    width: 100vw;           
+    height: auto;           
+    display: block;
+    margin: 0;             
+    object-fit: cover;      
+}
+h2{
+    
 }
