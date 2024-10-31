@@ -1,57 +1,80 @@
-body{
-    margin:0;
+body {
+  margin: 0;
+  background-color: #cdd5c6;
+
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    background-color: black;
-    margin:0;
-    padding: 10px 0px;
-    justify-content: center;
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-li a{
-    text-decoration: none; 
-    color: white;
-    padding: 10px 30px;
-    /*font-family: "Londrina Sketch", sans-serif;*/
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px 0px;
+  justify-content: center;
 }
 
-li a:hover{
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+li a:hover {
+  background-color: darkslategrey;
+}
+
+li a:active {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+  li {
+    width: 100vw;
+    padding: 10px 10px;
+  }
+  li a:hover {
     background-color: darkslategrey;
+  }
 }
 
-li a:active{
-    background-color: white;
-    color:black;
+#everything{
+    background-color: pink;
 }
 
-@media screen and (max-width: 800px){
-    ul{
-        flex-direction: column;
-    }
-    li{
-        width: 100vw;
-        padding: 10px 10px;
-    }
-    li a:hover{
-        background-color: darkslategrey;
-    }
-    
+.schedule_text {
+  font-size: 22px;
+  margin: 5%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5%;
+  border-color: black;
+  color: #29000a;
+  background-color: #f0ead6;
 }
 
-
-#about_pic {
-    width: 100%;            
+.schedule_bottom
+{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
 }
-
-#about_pic img {
-    width: 100vw;           
-    height: auto;           
-    display: block;
-    margin: 0;             
-    object-fit: cover;      
+.bottom_img
+{
+  margin: 10%;
 }
-
-
