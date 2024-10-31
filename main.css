@@ -135,3 +135,13 @@ h1 {
   font-size: 75px;
   font-style: "Dosis", sans-serif;
 }
+div {
+  
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  background-color: #703640;
+
+}
