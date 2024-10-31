@@ -1,65 +1,6 @@
-body {
-    margin: 0;
-    background-color: white;
-    font-family: "Bitter", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-p{
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    padding: 20px;
-}
-  
-  ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 10px 0px;
-    justify-content: center;
-    background-color: #703640;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 30px;
-    
-    
-  }
-  
-  li a:hover {
-    
-    background-color: #562931;
-  }
-  
-  li a:active {
-    background-color: white;
-    color: black;
-  }
-  
-  @media screen and (max-width: 800px) {
-    ul {
-      flex-direction: column;
-    }
-    li {
-      width: 100vw;
-      padding: 10px 10px;
-    }
-    li a:hover {
-      background-color: darkslategrey;
-    }
 
-/* nav bar stuff*/
 
-}#about_pic {
+#about_pic {
     width: 100%;     
 }
 #about_pic img {
@@ -95,8 +36,4 @@ p{
     display: block;
     margin: 0;             
     object-fit: cover;      
-}
-.flute_pic, .what_we_offer{
-  display: flex;
-  flex-direction: column;
 }
