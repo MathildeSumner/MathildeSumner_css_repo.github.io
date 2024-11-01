@@ -149,7 +149,6 @@ h2{
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  border-radius: 20px;
   }
 
 #BottomImage{
