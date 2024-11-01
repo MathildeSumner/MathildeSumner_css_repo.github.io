@@ -1,4 +1,4 @@
-/*nav bar stuff*/
+/* Navigation Bar styling*/
 nav ul {
   list-style: none;
   display: flex;
@@ -40,13 +40,10 @@ nav li a:active {
     background-color: darkslategrey;
   }}
 
-/*nav bar stuff*/
-
+/* Page Content*/
 body {
   margin: 0;
-  background-color: #cdd5c6;
-  /* font-family: "Londrina Sketch", sans-serif; */
-  
+  background-color: #cdd5c6;  
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: weight;
