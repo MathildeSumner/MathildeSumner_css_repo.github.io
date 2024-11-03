@@ -16,6 +16,8 @@
 
 .header_text p {
   font-size: 28px;
+  max-width: 600px; /* limits width of paragraph text */
+  margin: 0 auto;   /* centers paragraph within the container */
 }
 
 .schedule_container {
@@ -36,6 +38,15 @@
   background-color: #2c484e;
   align-items: center;
   text-align: center;
+}
+
+.schedule_text h1{
+font-size: 30px;;
+}
+
+.schedule_text p{
+  font-size: 18px;
+
 }
 
 .schedule_img img {
