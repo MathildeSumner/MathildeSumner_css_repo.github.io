@@ -1,4 +1,4 @@
-/*nav bar stuff*/
+/* Navigation Bar styling*/
 nav ul {
   list-style: none;
   display: flex;
@@ -40,17 +40,10 @@ nav li a:active {
     background-color: darkslategrey;
   }}
 
-/*nav bar stuff*/
-
+/* Page Content*/
 body {
   margin: 0;
-
-  background-color: #cdd5c6;
-  /* font-family: "Londrina Sketch", sans-serif; */
-  
-
-  background-color: #F2E9D8;
-
+  background-color: #cdd5c6;  
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -136,7 +129,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 5%;
-=======
+
 .landing h2 {
   font-size: 3rem;
   color: #3e4c3f;
@@ -237,4 +230,4 @@ div {
 
 
 }
-
+}
