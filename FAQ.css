@@ -42,11 +42,13 @@ nav li a:active {
 
 
 /* FAQ Flexbox content */
-@media only screen and (max-width: 400px) {
-  .FAQ-flexbox{
-      padding: 20px;
-      font-size: 16px;
-  }
+@media (max-width: 768px) {
+  .FAQ-flexbox {
+      font-size: 10px; 
+      padding: 10px;  
+      width: 100%;    
+      box-sizing: border-box;
+}
 }
 @media only screen and (min-width: 1500px) {
   .faq-container {
@@ -74,11 +76,13 @@ body {
   }
 
 .FAQ-flexbox{
-  margin: 10px;
-  display: flex;
+  margin: 3%;
+  display:flex;
   flex-direction: column;
   background-color:#F2E9D8;
-  text-wrap:balance;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
   }
 
 h1{
@@ -109,6 +113,27 @@ h2{
     margin-top: 20px;
 }
 
+/* Adjust FAQ content boxes for smaller screens */
+.Ticketing,
+.BeforeYouGo,
+.AtTheEvent {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden; /* Prevents text from spilling out */
+}
+
+/* Additional responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .Ticketing,
+    .BeforeYouGo,
+    .AtTheEvent {
+        font-size: 14px;
+        padding: 5%;
+        width: 100%;
+    }
+}
+
+
 .Ticketing{
   font-family: "Dosis", sans-serif;
   font-size: 22px;
@@ -119,7 +144,6 @@ h2{
   background-color: #2c484e;
   align-items: center;
   justify-content: center;
- 
   }
     
 .BeforeYouGo{
