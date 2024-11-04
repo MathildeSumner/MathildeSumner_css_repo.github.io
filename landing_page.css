@@ -98,7 +98,25 @@ header {
     text-align: center;
     padding: 20px 0;
 }
-
+h1{
+    padding: 20px;
+    font-family: "Bitter", serif;
+    text-align: center;
+     font-size: 50px;
+    }
+  
+  p{
+    padding: 20px;
+    font-family: "Dosis", sans-serif;
+    text-align:left;
+    font-size: 22px;
+    }
+  
+  h2{
+    padding: 20px;
+    font-family: "Bitter", serif;
+    text-align: center;
+    }
 nav ul {
     list-style: none;
     display: flex;
@@ -133,3 +151,52 @@ nav li a:hover {
         width: 100%;
     }
 }
+
+
+@media (max-width: 768px) {
+    .landing_container{
+      font-size: 16px;
+      padding: 3%;
+      margin: 3%;  
+      width: auto;
+      max-width: 100%;  
+      display: block;
+    }
+  
+
+   .FAQ-flexbox {
+      margin: 0;
+      padding: 5%;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .contact_us {
+    display: flex;
+    background-color: #703640;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+}
+
+.contact_us > div {
+    padding: 20px;
+    background-color: #703640;
+    border: 2px solid white;
+    max-width: 300px;
+    text-align: center;
+}
+
+.contact_us h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contact_us p {
+    margin: 0;
+}
+
+
+
