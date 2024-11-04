@@ -1,26 +1,24 @@
 
-/* Image Styling */
-.image-section img {
+.image-section {
     width: 100%;
     height: auto;
     display: block;
     margin: 0;
 }
 
-/* Container Flexbox */
+
 .landing_flexbox {
     margin: 10px;
     display: flex;
     flex-direction: column;
     background-color: #F2E9D8;
-    align-items: center; /* Center all content inside */
-}
+    align-items: center; }
 
-/* Textbox Styling */
+
 .text {
     font-family: "Dosis", sans-serif;
     font-size: 22px;
-    margin: 20px auto; /* Center the box */
+    margin: 20px auto; 
     padding: 20px;
     border-radius: 15px;
     color: white;
@@ -29,7 +27,7 @@
     text-align: center;
 }
 
-/* Header and Navbar Adjustments */
+
 header {
     text-align: center;
     padding: 20px 0;
