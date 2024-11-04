@@ -40,23 +40,7 @@ nav li a:active {
   }}
   
 
-
 /* FAQ Flexbox content */
-@media (max-width: 768px) {
-  .FAQ-flexbox {
-      font-size: 10px; 
-      padding: 10px;  
-      width: 100%;    
-      box-sizing: border-box;
-}
-}
-@media only screen and (min-width: 1500px) {
-  .faq-container {
-      padding: 40px;
-      font-size: 20px;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -67,124 +51,148 @@ body {
   font-style: normal;
 }
 
-#HeaderImage{
-  display: flex;
-  width: 100%;
-  height: auto;
-  max-width: 100%;                      
-  object-fit: cover; 
-  }
-
-.FAQ-flexbox{
-  margin: 3%;
-  display:flex;
-  flex-direction: column;
-  background-color:#F2E9D8;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  box-sizing: border-box;
-  }
-
-h1{
-  padding: 20px;
-  font-family: "Bitter", serif;
-  text-align: center;
-   font-size: 50px;
-  }
-
-p{
-  padding: 20px;
-  font-family: "Dosis", sans-serif;
-  text-align:left;
-  font-size: 22px;
-  }
-
-h2{
-  padding: 20px;
-  font-family: "Bitter", serif;
-  text-align: center;
-  }
-  /* Styling for every other list item (AKA the answers)*/
-  .Textboxes li:nth-child(even) {
-    margin-left: 20px;
-    list-style: none;
-    line-height: 1.8;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-/* Adjust FAQ content boxes for smaller screens */
-.Ticketing,
-.BeforeYouGo,
-.AtTheEvent {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow: hidden; /* Prevents text from spilling out */
-}
-
-/* Additional responsive styling for smaller screens */
+/* FAQ Flexbox content */
 @media (max-width: 768px) {
-    .Ticketing,
-    .BeforeYouGo,
-    .AtTheEvent {
-        font-size: 14px;
-        padding: 5%;
-        width: 100%;
-    }
+.FAQ-flexbox {
+    font-size: 10px; 
+    padding: 10px;  
+    width: 100%;    
+    box-sizing: border-box;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+.faq-container {
+    padding: 40px;
+    font-size: 20px;
+}
+}
+
+#HeaderImage {
+display: flex;
+width: 100%;
+height: auto;
+max-width: 100%;                      
+object-fit: cover; 
+}
+
+.FAQ-flexbox {
+margin: 3%;
+display: flex;
+flex-direction: column;
+background-color: #F2E9D8;
+word-wrap: break-word;
+overflow-wrap: break-word;
+box-sizing: border-box;
+width: 100%;
+max-width: 100%;
+overflow: hidden;
+}
+
+h1 {
+padding: 20px;
+font-family: "Bitter", serif;
+text-align: center;
+font-size: 50px;
+}
+
+p {
+padding: 20px;
+font-family: "Dosis", sans-serif;
+text-align: left;
+font-size: 22px;
+}
+
+h2 {
+padding: 20px;
+font-family: "Bitter", serif;
+text-align: center;
+}
+
+/* Styling for every other list item (AKA the answers) */
+.Textboxes li:nth-child(even) {
+margin-left: 20px;
+list-style: none;
+line-height: 1.8;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.Ticketing, .BeforeYouGo, .AtTheEvent {
+font-family: "Dosis", sans-serif;
+font-size: 22px;
+margin: 7%;
+border-radius: 20px;
+padding: 5%;
+color: white;
+background-color: #2c484e;
+align-items: center;
+justify-content: center;
+}
+
+.contact_us {
+padding: 40px;
+color: white;
+background-color: #703640;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+
+#BottomImage {
+display: flex;
+width: 100%;
+height: auto;
+max-width: 100%;
+padding-bottom: 5px;
+}
+
+/* New CSS adjustments for text overflow */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+.Ticketing, .BeforeYouGo, .AtTheEvent {
+word-wrap: break-word;
+overflow-wrap: anywhere;
+overflow: hidden;
+}
+
+@media (max-width: 768px) {
+.Ticketing, .BeforeYouGo, .AtTheEvent {
+  font-size: 16px;
+  padding: 3%;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+}
+
+.Ticketing, .BeforeYouGo, .AtTheEvent {
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+  margin: 7%;
+  border-radius: 20px;
+  padding: 5%;
+  color: white;
+  background-color: #2c484e;
+
+  word-wrap: break-word;
+  overflow-wrap: anywhere; /* Forces breaks within words */
+  word-break: break-all; /* Forces wrapping on long words */
+  white-space: normal; /* Ensures wrapping within box */
+}
+
+@media (max-width: 768px) {
+  .Ticketing, .BeforeYouGo, .AtTheEvent {
+    font-size: 16px;
+    padding: 3%;
+    width: auto;
+    max-width: 100%;
+    display: block;
+  }
 }
 
 
-.Ticketing{
-  font-family: "Dosis", sans-serif;
-  font-size: 22px;
-  margin: 7%;
-  border-radius: 20px;
-  padding: 5%;
-  color: white;
-  background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
-  }
-    
-.BeforeYouGo{
-  font-family: "Dosis", sans-serif;
-  font-size: 22px;
-  margin: 7%;
-  border-radius: 20px;
-  padding: 5%;
-  color: white;
-  background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
-  
-  }
-    
-.AtTheEvent{
-  font-family: "Dosis", sans-serif;
-  font-size: 22px;
-  margin: 7%;
-  border-radius: 20px;
-  padding: 5%;
-  color: white;
-  background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
- 
-  }
-
-.contact_us{
-  padding: 40px;
-  color: white;
-  background-color: #703640;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  }
-
-#BottomImage{
-    display: flex;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    padding-bottom: 5px;
-  }
