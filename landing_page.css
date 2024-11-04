@@ -71,3 +71,33 @@ nav li a:hover {
         width: 100%;
     }
 }
+
+.contact_us {
+    padding: 40px;
+    color: white;
+    background-color: #703640;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px; /* Adjusts the spacing between each section */
+}
+
+.contact_us div {
+    flex: 1; 
+    max-width: 300px; 
+}
+
+.contact_us h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact_us p {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px; /* Adjust font size for readability */
+    margin: 0;
+    line-height: 1.5;
+}
+
