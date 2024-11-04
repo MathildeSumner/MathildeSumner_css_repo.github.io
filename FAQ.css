@@ -58,13 +58,13 @@ nav li a:active {
 
 
 /* FAQ Flexbox content */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .FAQ-flexbox{
       padding: 10px;
       font-size: 16px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   .faq-container {
       padding: 20px;
       font-size: 20px;
