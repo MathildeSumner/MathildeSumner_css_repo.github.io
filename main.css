@@ -91,10 +91,7 @@ p{
   font-size: 18px;
 }
 
-h1 {
-  font-size: 30px;
 
-}
 
 .contact_us{
   padding: 40px;
@@ -102,6 +99,8 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  margin-top: 40px;         
+
 }
 
 
