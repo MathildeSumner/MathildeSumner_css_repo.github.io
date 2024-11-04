@@ -57,7 +57,7 @@ nav li a:active {
   
 
 
-/* FAQ Flexbox content */
+/*FAQ Flexbox content */
 @media only screen and (max-width: 768px) {
   .FAQ-flexbox{
       padding: 10px;
@@ -71,89 +71,66 @@ nav li a:active {
   }
 }
 
-#HeaderImage{
-  display: flex;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  }
+    /* Universal box-sizing to make padding and borders respect width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-.FAQ-flexbox{
-  margin: 10px;
+/* Main FAQ container adjustments */
+.FAQ-flexbox {
+  margin: 3%;
   display: flex;
   flex-direction: column;
-  background-color:#F2E9D8;
-  text-wrap:balance;
-  }
+  background-color: #F2E9D8;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
 
-h1{
-  padding: 20px;
-  font-family: "Bitter", serif;
-  text-align: center;
-   font-size: 50px;
-  }
-
-p{
-  padding: 20px;
-  font-family: "Dosis", sans-serif;
-  text-align:left;
-  font-size: 22px;
-  }
-
-h2{
-  padding: 20px;
-  font-family: "Bitter", serif;
-  text-align: center;
-  }
-    
-.Ticketing{
+/* Box styling for Ticketing, BeforeYouGo, and AtTheEvent */
+.Ticketing,
+.BeforeYouGo,
+.AtTheEvent {
   font-family: "Dosis", sans-serif;
   font-size: 22px;
   margin: 7%;
-  border-radius: 20px;
-  padding: 7%;
+  padding: 5%;
   color: white;
   background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
-  }
-    
-.BeforeYouGo{
-  font-family: "Dosis", sans-serif;
-  font-size: 22px;
-  margin: 7%;
   border-radius: 20px;
-  padding: 7%;
-  color: white;
-  background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
-  }
-    
-.AtTheEvent{
-  font-family: "Dosis", sans-serif;
-  font-size: 22px;
-  margin: 7%;
-  border-radius: 20px;
-  padding: 7%;
-  color: white;
-  background-color: #2c484e;
-  align-items: center;
-  justify-content: center;
+  
+  /* Updated properties to contain text within the box */
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  white-space: normal;
+  
+  /* Ensure box doesn't exceed screen width */
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .Ticketing,
+  .BeforeYouGo,
+  .AtTheEvent {
+    font-size: 16px;
+    padding: 3%;
+    margin: 3%;  /* Reduce margin to fit better on small screens */
+    width: auto;
+    max-width: 100%;  /* Keeps boxes within screen width */
+    display: block;
   }
 
-.contact_us{
-  padding: 40px;
-  color: white;
-  background-color: #703640;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  }
-
-#BottomImage{
-    display: flex;
+  /* Adjust container to keep it contained within screen width */
+  .FAQ-flexbox {
+    margin: 0;
+    padding: 5%;
     width: 100%;
-    height: auto;
     max-width: 100%;
   }
+}
