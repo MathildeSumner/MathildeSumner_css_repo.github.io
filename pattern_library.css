@@ -1,9 +1,15 @@
 body {
-  background-color: hsl(39, 50%, 90%, .5);
+  background-color: hsl(92, 15%, 81%, .6);
   margin-left: 30%;
   margin-right: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border-style: groove;
+  padding: 5%;
 }
 
 h1 {
@@ -21,11 +27,15 @@ h6 {
 h2 {
   color: #29000a;
   font-size: 45px;
+  padding: 5px;
+
 }
 
 h3 {
   color: #29000a;
   font-size: 35px;
+  padding: 5px;
+
 }
 
 p,
@@ -34,4 +44,9 @@ td,
 li {
   color: #2c484e;
   font-size: 25px;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
 }
