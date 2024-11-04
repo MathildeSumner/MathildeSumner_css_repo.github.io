@@ -81,7 +81,7 @@ p{
 }
 
 .landing p {
-  font-family: "Dosis", sans-serif;
+  font-family: "Bitter", serif;
   font-size: 1.25rem;
   max-width: 600px;
   text-align: center;
@@ -129,7 +129,7 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Content Grid */
+
 .schedule_bottom {
   display: grid;
   align-items: center;
@@ -140,7 +140,7 @@ h1 {
 .landing h2 {
   font-size: 3rem;
   color: #3e4c3f;
-  font-family: "Londrina Sketch", sans-serif;
+  font-family: "Dosis", sans-serif;
   text-align: center;
 }
 
@@ -234,7 +234,5 @@ div {
 .image-section {
   max-width: max-content;
   max-height: flex;
-
-
 }
 
