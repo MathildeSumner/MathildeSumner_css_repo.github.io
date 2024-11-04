@@ -79,7 +79,7 @@ nav li a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 20px; /* Adjusts the spacing between each section */
+    gap: 20px; 
 }
 
 .contact_us div {
@@ -96,8 +96,9 @@ nav li a:hover {
 
 .contact_us p {
     font-family: "Dosis", sans-serif;
-    font-size: 18px; /* Adjust font size for readability */
+    font-size: 18px; 
     margin: 0;
     line-height: 1.5;
 }
+
 
