@@ -223,11 +223,4 @@ div {
 .landing, .schedule_bottom {
   animation: fadeIn 1s ease-out;
 }
-
-.image-section {
-  max-width: max-content;
-  max-height: flex;
-
-
-}
 }

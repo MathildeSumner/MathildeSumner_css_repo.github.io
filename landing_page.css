@@ -60,17 +60,23 @@ nav ul {
       background-color: darkslategrey;
     }}
 
-.image-section {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-}
-.image-section img {
-    max-width: 100%;
-    height: auto;            
-}
+    .image-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0; 
+    }
+    
+    .image-section img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    
 
 .landing_flexbox {
     margin: 10px;
