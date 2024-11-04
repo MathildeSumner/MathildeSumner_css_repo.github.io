@@ -57,6 +57,7 @@ nav li a:active {
 
 body {
   margin: 0;
+  padding: 0;
   background-color: #F2E9D8;  
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
@@ -100,7 +101,7 @@ h2{
   text-align: center;
   }
   /* Styling for every other list item (AKA the answers)*/
-  ul li:nth-child(even) {
+  .Textboxes li:nth-child(even) {
     margin-left: 20px;
     list-style: none;
     line-height: 1.8;
