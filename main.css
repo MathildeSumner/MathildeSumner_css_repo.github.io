@@ -1,4 +1,4 @@
-/*nav bar stuff*/
+/* Navigation Bar styling*/
 nav ul {
   list-style: none;
   display: flex;
@@ -40,17 +40,10 @@ nav li a:active {
     background-color: darkslategrey;
   }}
 
-/*nav bar stuff*/
-
+/* Page Content*/
 body {
   margin: 0;
-
-  background-color: #cdd5c6;
-  /* font-family: "Londrina Sketch", sans-serif; */
-  
-
-  background-color: #F2E9D8;
-
+  background-color: #F2E9D8;  
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -81,7 +74,7 @@ p{
 }
 
 .landing p {
-  font-family: "Bitter", serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.25rem;
   max-width: 600px;
   text-align: center;
@@ -98,17 +91,17 @@ p{
   font-size: 18px;
 }
 
-h1 {
-  font-size: 50px;
-  
-}
+
 
 .contact_us{
   padding: 40px;
+  color: #F2E9D8;
   background-color: #703640;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  margin-top: 40px;         
+
 }
 
 
@@ -129,18 +122,18 @@ h1 {
   transform: scale(1.05);
 }
 
-
+/* Content Grid */
 .schedule_bottom {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 5%;
-}
+
 .landing h2 {
   font-size: 3rem;
   color: #3e4c3f;
-  font-family: "Dosis", sans-serif;
+  font-family: "Londrina Sketch", sans-serif;
   text-align: center;
 }
 
@@ -175,7 +168,7 @@ h1 {
 
 }
 h1 {
-  font-size: 75px;
+  font-size: 100px;
   font-style: "Dosis", sans-serif;
 }
 div {
@@ -231,4 +224,10 @@ div {
   animation: fadeIn 1s ease-out;
 }
 
+.image-section {
+  max-width: max-content;
+  max-height: flex;
 
+
+}
+}
