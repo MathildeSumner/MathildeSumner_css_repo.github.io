@@ -71,7 +71,7 @@ nav li a:active {
   }
 }
 
-    /* Universal box-sizing to make padding and borders respect width */
+/* Universal box-sizing to make padding and borders respect width */
 *,
 *::before,
 *::after {
