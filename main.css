@@ -28,7 +28,7 @@ nav li a:active {
   color: black;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   ul {
     flex-direction: column;
   }

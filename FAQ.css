@@ -27,7 +27,7 @@ nav li a:active {
   color: black;
 }
   /* Mobile Styles - screen width up to 400px */
-@media screen and (max-width: 400px) {
+  @media only screen and(max-width: 400px) {
   ul {
     flex-direction: column;
   }
@@ -41,14 +41,14 @@ nav li a:active {
 
 
 /* FAQ Flexbox content */
-@media (max-width: 400px) {
+@media only screen and(max-width: 768px) {
 .FAQ-flexbox {
     font-size: 20%; 
     padding: 10px;  
     width: 100%;    
 }
 }
-@media (min-width: 1500px) {
+@media only screen and(min-width: 1500px) {
   .FAQ-flexbox{
       padding: 40px;
       font-size: 20px;
