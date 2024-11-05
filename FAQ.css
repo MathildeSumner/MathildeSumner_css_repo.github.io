@@ -1,19 +1,4 @@
 /* Navigation Bar */
-body {
-  margin: 0;
-  background-color: #F2E9D8;
-  font-family: "Bitter", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-p{
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
 nav ul {
   list-style: none;
   display: flex;
@@ -34,7 +19,6 @@ nav a {
 }
 
 nav li a:hover {
-  
   background-color: #562931;
 }
 
@@ -43,7 +27,8 @@ nav li a:active {
   color: black;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 768px) {
   ul {
     flex-direction: column;
   }
@@ -60,35 +45,103 @@ nav li a:active {
 /*FAQ Flexbox content */
 @media only screen and (max-width: 768px) {
   .FAQ-flexbox{
-      padding: 10px;
-      font-size: 16px;
+      padding: 0px;
+      font-size: 20px;
+      width: 100%;   
+      box-sizing: border-box;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .faq-container {
-      padding: 20px;
+@media only screen and (min-width: 1500px) {
+  .faq-container{
+      padding: 40px;
       font-size: 20px;
   }
 }
 
-/* Universal box-sizing to make padding and borders respect width */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+#HeaderImage{
+ display: flex;
+ width: 100%;
+ height: auto;
+ max-width: 100%;
+ }
+
+ body {
+  margin: 0;
+  background-color: #F2E9D8;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+h1{
+ padding: 20px;
+ font-family: "Bitter", serif;
+ text-align: center;
+  font-size: 50px;
+ }
+
+
+p{
+ padding: 20px;
+ font-family: "Dosis", sans-serif;
+ text-align:left;
+ font-size: 22px;
+ }
+
+
+h2{
+ padding: 20px;
+ font-family: "Bitter", serif;
+ text-align: center;
+ }
+
+
+
+#HeaderImage {
+  box-sizing: border-box;
+  width: 100%;           
+  height: auto;           
+  display: block;
+  margin: 0;             
+}
+
+
+    /* Universal box-sizing to make padding and borders respect width */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
 /* Main FAQ container adjustments */
-.FAQ-flexbox {
-  margin: 3%;
+.FAQ-flexbox{
   display: flex;
   flex-direction: column;
   background-color: #F2E9D8;
   width: 100%;
   max-width: 100%;
   overflow: hidden;
+  text-wrap:balance;
 }
 
+/* Styling for every other list item (AKA the answers) */
+.Textboxes li:nth-child(even) {
+  margin-left: 20px;
+  list-style: none;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+  
 /* Box styling for Ticketing, BeforeYouGo, and AtTheEvent */
 .Ticketing,
 .BeforeYouGo,
@@ -103,7 +156,7 @@ nav li a:active {
   
   /* Updated properties to contain text within the box */
   word-wrap: break-word;
-  overflow-wrap: anywhere;
+  overflow-wrap:normal ;
   word-break: break-all;
   white-space: normal;
   
@@ -120,9 +173,9 @@ nav li a:active {
   .AtTheEvent {
     font-size: 16px;
     padding: 3%;
-    margin: 3%;  /* Reduce margin to fit better on small screens */
-    width: auto;
-    max-width: 100%;  /* Keeps boxes within screen width */
+    margin: 3%; 
+    width: 100%;
+    max-width: 100%; 
     display: block;
   }
 
@@ -134,3 +187,21 @@ nav li a:active {
     max-width: 100%;
   }
 }
+
+.contact_us {
+  padding: 40px;
+  color: white;
+  background-color: #703640;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  }
+  
+  #BottomImage {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 5px;
+    }
+    
