@@ -128,13 +128,8 @@ p{
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-<<<<<<< Updated upstream
   padding: 5%;
 
-=======
-  padding: 5%; 
-  }
->>>>>>> Stashed changes
 .landing h2 {
   font-size: 3rem;
   color: #3e4c3f;
@@ -227,5 +222,12 @@ div {
 
 .landing, .schedule_bottom {
   animation: fadeIn 1s ease-out;
+}
+
+.image-section {
+  max-width: max-content;
+  max-height: flex;
+
+
 }
 }
