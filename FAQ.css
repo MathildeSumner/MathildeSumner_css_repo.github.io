@@ -26,19 +26,6 @@ nav li a:active {
   background-color: white;
   color: black;
 }
-
-
-@media screen and (max-width: 768px) {
-  ul {
-    flex-direction: column;
-  }
-  li {
-    width: 100vw;
-    padding: 10px 10px;
-  }
-  li a:hover {
-    background-color: darkslategrey;
-  }}
   
 
 /* FAQ Flexbox content */
