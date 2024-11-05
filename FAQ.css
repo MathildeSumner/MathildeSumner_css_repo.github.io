@@ -26,8 +26,8 @@ nav li a:active {
   background-color: white;
   color: black;
 }
-  
-@media screen and (max-width: 800px) {
+  /* Mobile Styles - screen width up to 400px */
+@media screen and (max-width: 400px) {
   ul {
     flex-direction: column;
   }
@@ -38,16 +38,28 @@ nav li a:active {
   li a:hover {
     background-color: darkslategrey;
   }}
+/* Laptop Styles - screen width around 1500px */
 
+@media (min-width: 1000px) {
+  ul {
+    flex-direction: column;
+  }
+  li {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  li a:hover {
+    background-color: darkslategrey;
+  }
+}
 
 
 /* FAQ Flexbox content */
-@media (max-width: 800px) {
+@media (max-width: 400px) {
 .FAQ-flexbox {
-    font-size: 50%; 
+    font-size: 20%; 
     padding: 10px;  
     width: 100%;    
-    box-sizing: border-box;
 }
 }
 @media (min-width: 1500px) {
@@ -138,15 +150,6 @@ border-radius: 10px;
 box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-.Ticketing, .BeforeYouGo, .AtTheEvent p h2{
-  font-size: 22px;
-  padding: 3%;
-  width: auto;
-  max-width: 100%;
-  display: block;
-}
-}
 
 .Ticketing, .BeforeYouGo, .AtTheEvent {
   font-family: "Dosis", sans-serif;
