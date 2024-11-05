@@ -110,13 +110,16 @@ font-family: "Bitter", serif;
 text-align: center;
 }
 
-.contact_us {
-padding: 40px;
-color: white;
-background-color: #703640;
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
+
+.contact_us{
+  padding: 40px;
+  color: #F2E9D8;
+  background-color: #703640;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 40px;         
+
 }
 
 #BottomImage {
