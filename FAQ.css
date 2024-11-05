@@ -38,20 +38,6 @@ nav li a:active {
   li a:hover {
     background-color: darkslategrey;
   }}
-/* Laptop Styles - screen width around 1500px */
-
-@media (min-width: 1000px) {
-  ul {
-    flex-direction: column;
-  }
-  li {
-    width: 100%;
-    padding: 0px 10px;
-  }
-  li a:hover {
-    background-color: darkslategrey;
-  }
-}
 
 
 /* FAQ Flexbox content */
