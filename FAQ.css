@@ -27,7 +27,7 @@ nav li a:active {
   color: black;
 }
   
-  @media only screen and(max-width: 768px) {
+@media screen and (max-width: 800px) {
   ul {
     flex-direction: column;
   }
@@ -38,7 +38,6 @@ nav li a:active {
   li a:hover {
     background-color: darkslategrey;
   }}
-
 
 /* FAQ Flexbox content */
 @media only screen and(max-width: 768px) {
